@@ -238,7 +238,7 @@ export default function App() {
       ) : Check == null && Check !== undefined ? (
         <h2>ไม่พบข้อมูล</h2>
       ) : (
-        <h3 className="mt-5">กำลังตรวจสอบ...</h3>
+        <h3 className="mt-5"><img src="https://cdn.jsdelivr.net/gh/cpx2017/cpxcdnbucket@main/main/cpx-circular.svg" width="40"/> กำลังตรวจสอบ...</h3>
       )}
     </div>
   );
