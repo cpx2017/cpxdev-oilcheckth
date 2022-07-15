@@ -234,6 +234,7 @@ export default function App() {
               </table>
             </div>
           )}
+          <button type="button" class="btn btn-outline-primary" onClick={() => window.open("https://github.com/cpx2017/cpxdev-oilcheckth","_target")}><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png?w=360" width="30" />Get Source Code</button>
         </div>
       ) : Check == null && Check !== undefined ? (
         <h2>ไม่พบข้อมูล</h2>
